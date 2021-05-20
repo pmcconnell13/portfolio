@@ -1,8 +1,6 @@
 import React from 'react';
-import WelcomePage from './welcomePage.jsx';
 
-
-class App extends React.Component {
+class Contact extends React.Component {
   constructor(props) {
     super(props)
   }
@@ -10,10 +8,10 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <WelcomePage />
+        Contact
       </div>
     )
   }
 }
 
-export default App;
+export default Contact;
