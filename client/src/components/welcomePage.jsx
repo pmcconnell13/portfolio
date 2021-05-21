@@ -1,4 +1,5 @@
 import React from 'react';
+import headshot from '../../public/headshot.jpg';
 
 class WelcomePage extends React.Component {
   constructor(props) {
@@ -9,6 +10,7 @@ class WelcomePage extends React.Component {
     return (
       <div>
         Hello World!
+        <img id="headshot" src={headshot}/>
       </div>
     )
   }
