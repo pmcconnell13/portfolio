@@ -1,29 +1,117 @@
-#homePage {
-  display: flex;
-  justify-content: center;
+#App {
+  height: 100%;
+  width: 100vw;
 }
 
-#helloWorld {
+.homePage {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+}
+
+.background {
+  display: flex;
+  flex-direction: row;
+}
+
+.homePageLeft {
+  display: flex;
+    background-color: #A5D8DF;
+    width: 50%;
+    height: 100vh;
+}
+
+.homePageRight {
+  display: flex;
+    background-color: #D9E5E8;
+    width: 50%;
+    height: 100vh;
+}
+
+.homeOverlay {
+  z-index: 10;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.welcomePhoto {
+  display: flex;
+}
+
+.welcomeText {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    letter-spacing: 3px;
+    /* flex-shrink: inherit;
+
+    align-items: baseline; */
+}
+
+#header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hello {
   position: relative;
-  animation: helloWorld 3s 1;
+  animation: hello 3s 1;
+  animation-fill-mode: forwards;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 100px;
+  color: #D9E5E8;
+}
+
+.world {
+  position: relative;
+  animation: world 3s 1;
+  animation-fill-mode: forwards;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 100px;
+  color: #A5D8DF;
+}
+
+.excited {
+  position: relative;
+  animation: excited 3s 1;
+  animation-fill-mode: forwards;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 100px;
+  color: #D9E5E8;
 }
 
 #headshot {
-  width: 200px;
-  height: 200px;
-  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
   object-fit: cover;
   position: relative;
   animation: headshot 3s 1;
+  animation-fill-mode: forwards;
 }
-
 
 @keyframes headshot {
   from {margin-top: -20%;}
-  to {margin-top: 15%;}
+  to {
+    margin-top: 12%;
+    margin-right: 2%;
+  }
 }
 
-@keyframes helloWorld {
+@keyframes hello {
+  from {margin-right: 100%;}
+  to {margin-right: 0%;}
+}
+
+@keyframes world {
+  from {margin-left: 100%;}
+  to {margin-left: 0%;}
+}
+
+@keyframes excited {
   from {margin-top: 100%;}
-  to {margin-top: 20%;}
+  to {margin-top: 0%;}
 }
