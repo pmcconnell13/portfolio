@@ -1,6 +1,29 @@
+#homePage {
+  display: flex;
+  justify-content: center;
+}
+
+#helloWorld {
+  position: relative;
+  animation: helloWorld 3s 1;
+}
+
 #headshot {
   width: 200px;
   height: 200px;
   border-radius: 20px;
-  
+  object-fit: cover;
+  position: relative;
+  animation: headshot 3s 1;
+}
+
+
+@keyframes headshot {
+  from {margin-top: -20%;}
+  to {margin-top: 15%;}
+}
+
+@keyframes helloWorld {
+  from {margin-top: 100%;}
+  to {margin-top: 20%;}
 }
