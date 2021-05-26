@@ -4,13 +4,11 @@ import { NavLink } from 'react-router-dom';
 function Header() {
     return (
       <div id="header">
-          <div class="headerHome">
-            <a href="#homePage">Home</a>
-          </div>
+        <div class="headerHome">
+          <a href="#homePage">Home</a>
+        </div>
         <div>
-          <div>
           <a href="#aboutMe">About Me</a>
-          </div>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </div>

@@ -13,7 +13,10 @@ const App = (
   <Router>
     <div className="App">
       <Header />
-      <Main />
+      <WelcomePage />
+      <AboutMe />
+      <Projects />
+      <Contact />
       {/* <Footer /> */}
     </div>
   </Router>
