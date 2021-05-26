@@ -10,7 +10,6 @@ import Resume from './resume.jsx';
 import Main from './reactRouter.jsx';
 
 const App = (
-  <Router>
     <div className="App">
       <Header />
       <WelcomePage />
@@ -19,7 +18,6 @@ const App = (
       <Contact />
       {/* <Footer /> */}
     </div>
-  </Router>
 )
 
 export default App;

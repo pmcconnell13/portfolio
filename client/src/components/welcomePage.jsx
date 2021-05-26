@@ -7,7 +7,6 @@ function WelcomePage() {
         <div class="background">
           <div class="homePageLeft"></div>
           <div class="homePageRight"></div>
-        </div>
         <div class="homeOverlay">
           <div class="welcomePhoto">
             <img id="headshot" src={headshot}/>
@@ -23,6 +22,7 @@ function WelcomePage() {
               !
             </div>
           </div>
+        </div>
         </div>
     </div>
   )
