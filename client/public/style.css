@@ -3,7 +3,10 @@
   width: 100vw;
 }
 
-.homePage {
+#homePage,
+#aboutMe,
+#projects,
+#contact {
   display: grid;
   height: 100vh;
   width: 100vw;
@@ -51,11 +54,6 @@
     align-items: baseline; */
 }
 
-#header {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .hello {
   position: relative;
   animation: hello 3s 1;
@@ -91,6 +89,17 @@
   position: relative;
   animation: headshot 3s 1;
   animation-fill-mode: forwards;
+}
+
+/* Header Styling */
+#header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headerHome {
+  display: flex;
+  justify-content: flex-start;
 }
 
 @keyframes headshot {

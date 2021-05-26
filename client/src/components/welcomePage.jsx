@@ -3,7 +3,7 @@ import headshot from '../../public/headshot.jpg';
 
 function WelcomePage() {
   return (
-      <div class="homePage">
+      <div id="homePage">
         <div class="background">
           <div class="homePageLeft"></div>
           <div class="homePageRight"></div>
