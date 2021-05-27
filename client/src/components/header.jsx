@@ -1,19 +1,28 @@
 import React from 'react';
-// import { NavLink } from 'react-router-dom';
 import headshot from '../../public/headshot.jpg';
 
 function Header() {
     return (
       <div id="header">
         <div class="navLeft">
-          <a href="#homePage" >
-            <img class="homeHeadshot" src={headshot}/>
-          </a>
+          <div>
+            <a href="#homePage" >
+              <img class="homeHeadshot" src={headshot}/>
+            </a>
+          </div>
         </div>
         <div class="navRight">
-          <a href="#aboutMe">About Me</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+          {/* <div class="sections"> */}
+            <div>
+              <a href="#aboutMe">About Me</a>
+            </div>
+            <div>
+              <a href="#projects">Projects</a>
+            </div>
+            <div>
+              <a href="#contact">Contact</a>
+            </div>
+          {/* </div> */}
         </div>
       </div>
     );

@@ -9,6 +9,8 @@ div {
 
 a {
   text-decoration: none;
+  color: #f8f5ed;
+  padding: 20px;
 }
 
 #App {
@@ -26,7 +28,7 @@ a {
 #header {
   display: flex;
   background-color: #5f9ea0;
-  height: 10vh;
+  height: 7vh;
   width: 100%;
   position: fixed;
   z-index: 100;
@@ -40,18 +42,24 @@ a {
   padding: 10px;
 }
 
+/* .sections {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+} */
+
 .navRight {
   display: flex;
   justify-content: space-evenly;
-  font-size: 30px;
+  font-size: 25px;
   color: #f8f5ed;
   align-items: center;
   margin-left: auto;
 }
 
-.nav {
+/* .nav {
   list-style-type: none;
-}
+} */
 
 .homeHeadshot {
   width: 60px;
