@@ -159,7 +159,7 @@ a {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   border-style: solid;
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
 }
 
@@ -175,7 +175,30 @@ a {
 }
 
 /* Projects */
+#projects {
+  display: grid;
+  grid-template-columns: .5fr repeat(3, 1fr) .5fr;
+  grid-template-rows: .5fr repeat(3, 1fr) .5fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border-style: solid;
+  height: 100vh;
+  width: 100vw;
+}
 
+.project1 {
+  grid-area: 2 / 2 / 3 / 5;
+  border-style: solid;
+  display: flex;
+}
+.project2 {
+  grid-area: 3 / 2 / 4 / 5;
+  border-style: solid;
+}
+.project3 {
+  grid-area: 4 / 2 / 5 / 5;
+  border-style: solid;
+}
 
 .flex {
   display: flex;

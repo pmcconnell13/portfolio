@@ -1,17 +1,19 @@
 import React from 'react';
 
-class Projects extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-
-  render() {
+function Projects() {
     return (
       <div id="projects">
-       Projects
+          <div class="project1">
+            Project 1
+          </div>
+          <div class="project2">
+            Project 2
+          </div>
+          <div class="project3">
+            Project 3
+          </div>
       </div>
     )
-  }
 }
 
 export default Projects;
