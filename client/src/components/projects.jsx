@@ -12,6 +12,9 @@ function Projects() {
           <div class="project3">
             Project 3
           </div>
+          <div class="project4">
+            Project 4
+          </div>
       </div>
     )
 }

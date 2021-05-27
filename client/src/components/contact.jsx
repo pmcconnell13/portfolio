@@ -1,17 +1,13 @@
 import React from 'react';
 
-class Contact extends React.Component {
-  constructor(props) {
-    super(props)
-  }
+function Contact () {
+  return (
+    <div id="contact">
+      <div class="contactWrapper">
 
-  render() {
-    return (
-      <div id="contact">
-        Contact
       </div>
-    )
-  }
+    </div>
+  )
 }
 
 export default Contact;
