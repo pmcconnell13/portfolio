@@ -4,14 +4,12 @@ import headshot from '../../public/headshot.jpg';
 function WelcomePage() {
   return (
       <div id="homePage">
-        {/* <div class="background">
-          <div class="homePageLeft"></div>
-          <div class="homePageRight"></div>
-        </div> */}
+
+          <div class="homePageLeft">left</div>
+          <div class="homePageRight">right</div>
         <div class="homeOverlay">
           <div class="welcomePhoto">
             <img id="headshot" src={headshot}/>
-          </div>
           <div class="welcomeText">
             <div class="hello">
               Hello
@@ -22,6 +20,7 @@ function WelcomePage() {
             <div class="excited">
               !
             </div>
+          </div>
           </div>
         </div>
     </div>
