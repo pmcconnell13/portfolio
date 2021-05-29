@@ -7,7 +7,6 @@ import AboutMe from './aboutMe.jsx';
 import Header from './header.jsx';
 import Footer from './footer.jsx';
 import Resume from './resume.jsx';
-import Main from './reactRouter.jsx';
 
 const App = (
     <div className="App">
