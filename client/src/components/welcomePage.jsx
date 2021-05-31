@@ -12,14 +12,14 @@ function WelcomePage() {
             <img id="headshot" src={headshot}/>
           <div class="welcomeText">
             <div class="hello">
-              Hello World!
+              Hello
             </div>
-            {/* <div class="world">
+            <div class="world">
               World
             </div>
             <div class="excited">
               !
-            </div> */}
+            </div>
           </div>
           </div>
         </div>
