@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   scroll-behavior: smooth;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 /* div {
@@ -11,7 +11,12 @@ html, body {
 a {
   text-decoration: none;
   color: #F6F6DB;
-  padding: 20px;
+  padding: 15px;
+}
+
+a:hover {
+  color: #D5E7B8;
+  transition: .5s;
 }
 
 #App {
@@ -35,6 +40,12 @@ a {
   z-index: 100;
 }
 
+#socialLinks {
+  display: flex;
+  font-size: 30px;
+  color: #F6F6DB;
+}
+
 .navLeft {
   display: flex;
   justify-content: flex-start;
@@ -43,12 +54,6 @@ a {
   padding: 10px;
 }
 
-/* .sections {
-  display: flex;
-  margin: auto;
-  justify-content: space-evenly;
-} */
-
 .navRight {
   display: flex;
   justify-content: space-evenly;
@@ -56,10 +61,6 @@ a {
   align-items: center;
   margin-left: auto;
 }
-
-/* .nav {
-  list-style-type: none;
-} */
 
 .homeHeadshot {
   width: 48px;
@@ -98,8 +99,8 @@ a {
 .homePageRight {
   display: flex;
   grid-area: 1 / 4 / 6 / 7;
-    background: #C4DEA4;
-    height: 100vh;
+  background: #C4DEA4;
+  height: 101vh;
 }
 
 .homeOverlay {
@@ -137,7 +138,7 @@ a {
   position: relative;
   animation: hello 3s 1;
   animation-fill-mode: forwards;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 130px;
   color: #C4DEA4;
 }
@@ -146,7 +147,7 @@ a {
   position: relative;
   animation: world 3s 1;
   animation-fill-mode: forwards;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 130px;
   color: #F6F6DB;
 }
@@ -203,6 +204,7 @@ a {
   grid-row-gap: 0px;
   height: 100vh;
   width: 100vw;
+  background: #CAAD7E;
 }
 
 .aboutInfo {
