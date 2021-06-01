@@ -119,13 +119,13 @@ a {
 
 .welcomeText {
   display: flex;
-  /* position: relative;
+  position: relative;
   animation: hello 3s 1;
-  animation-fill-mode: forwards; */
+  animation-fill-mode: forwards;
   font-family: 'Rajdhani', sans-serif;
   font-size: 100px;
   color: #D9E5E8;
-  letter-spacing: 3px;
+  /* letter-spacing: 3px; */
   /* grid-area: 4 / 2 / 5 / 6; */
   /* display: flex;
     flex-direction: row;
@@ -154,22 +154,13 @@ a {
   color: #F6F6DB;
 }
 
-.excited {
-  position: relative;
-  animation: excited 3s 1;
-  /* animation-fill-mode: forwards; */
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 130px;
-  color: #D9E5E8;
-}
-
 #headshot {
   width: 300px;
   height: 300px;
   border-radius: 150px;
   object-fit: cover;
   position: relative;
-  animation: headshot 3s 1;
+  animation: headshot 3.5s 1;
   animation-fill-mode: forwards;
 }
 
@@ -185,19 +176,26 @@ a {
 }
 
 @keyframes hello {
-  from {margin-right: 100%;}
-  to {margin-right: 5%;}
+  from {
+    margin-right: 150%;
+    opacity: 0;
+  }
+  to {
+    margin-right: 0%;
+    opacity: 1;
+  }
 }
 
 @keyframes world {
-  from {margin-left: 100%;}
-  to {margin-left: 5%;}
+  from {
+    margin-left: 80%;
+    opacity: 0;
+  }
+  to {
+    margin-left: 12%;
+    opacity: 1;
+  }
 }
-
-/* @keyframes excited {
-  from {margin-top: 100%;}
-  to {margin-top: 0%;}
-} */
 
 /* About me */
 #aboutMe {

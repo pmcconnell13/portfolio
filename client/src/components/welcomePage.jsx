@@ -4,7 +4,6 @@ import headshot from '../../public/headshot.jpg';
 function WelcomePage() {
   return (
       <div id="homePage">
-
           <div class="homePageLeft">left</div>
           <div class="homePageRight">right</div>
         <div class="homeOverlay">
