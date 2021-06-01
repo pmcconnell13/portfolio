@@ -10,17 +10,14 @@ function WelcomePage() {
         <div class="homeOverlay">
           <div class="welcomePhoto">
             <img id="headshot" src={headshot}/>
+          </div>
           <div class="welcomeText">
             <div class="hello">
               Hello
             </div>
             <div class="world">
-              World
+              World!
             </div>
-            <div class="excited">
-              !
-            </div>
-          </div>
           </div>
         </div>
     </div>
