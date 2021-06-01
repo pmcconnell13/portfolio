@@ -25,7 +25,6 @@ function Header() {
         <div class="navRight">
           <a href="#aboutMe">About Me</a>
           <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
         </div>
       </div>
     );

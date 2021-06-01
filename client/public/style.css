@@ -158,7 +158,7 @@ a:hover {
   border-radius: 150px;
   object-fit: cover;
   position: relative;
-  animation: headshot 3.5s 1;
+  animation: headshot 3s 1;
   animation-fill-mode: forwards;
 }
 
@@ -190,7 +190,7 @@ a:hover {
     opacity: 0;
   }
   to {
-    margin-left: 12%;
+    margin-left: 11%;
     opacity: 1;
   }
 }
@@ -266,30 +266,6 @@ a:hover {
 .div11 { grid-area: 4 / 3 / 5 / 5; }
 .div12 { grid-area: 5 / 2 / 6 / 3; }
 .div13 { grid-area: 5 / 3 / 6 / 5; }
-
-/* Contact */
-
-#contact {
-  background-color: pink;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: .5fr repeat(3, 1fr) .5fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  height: 100vh;
-  width: 100vw;
-  scroll-snap-align: start;
-}
-
-.contactWrapper {
-  grid-area: 2 / 2 / 5 / 4;
-  border-style: solid;
-  display: flex
-}
-
-.flex {
-  display: flex;
-}
 
 @keyframes aboutMe {
   from {opacity: 0;}
