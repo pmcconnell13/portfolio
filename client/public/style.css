@@ -222,7 +222,7 @@ a:hover {
   letter-spacing: .01em;
   justify-content: center;
   align-items: center;
-  /* margin: auto; */
+  line-height: 1.5em;
   color: #F6F6DB;
   /* animation: aboutMe 6s 1;
   animation-fill-mode: forwards; */
