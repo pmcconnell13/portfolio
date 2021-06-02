@@ -21,11 +21,6 @@ a:hover {
   scroll-snap-type: y mandatory;
 }
 
-.section-container {
-  width: 100%;
-  height: 100vh;
-}
-
 /* Header Styling */
 #header {
   display: flex;
@@ -193,42 +188,44 @@ a:hover {
   height: 100vh;
   width: 100vw;
   background: #F6F6DB;
+  animation: aboutMe 3s 1;
+  animation-fill-mode: forwards;
 }
 
-.div1 { grid-area: 2 / 2 / 3 / 6; }
-.div2 { grid-area: 3 / 2 / 7 / 6; }
+.aboutMeContainer {
+  grid-area: 2 / 2 / 7 / 6;
+  background: #C4DEA4;
+  border-radius: 1em;
+  box-shadow: 0em 0em 3em #CAAD7E;
+  padding: 2em;
+}
 
 .aboutName {
-  grid-area: 2 / 1 / 3 / 6;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-left: .5em;
   font-size:5em;
-  color: #D5E7B8;
+  color: #F6F6DB;
 }
 
 .aboutTitle {
-  grid-area: 3 / 1 / 4 / 6;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-left: 1em;
   font-size: 3em;
   color: #CAAD7E;
 }
 
 .aboutInfo {
-  grid-area: 3 / 2 / 7 / 6;
   display: flex;
-  font-size: 25px;
+  font-size: 1.5em;
+  letter-spacing: .01em;
   justify-content: center;
   align-items: center;
   /* margin: auto; */
-  color: #CAAD7E;
-  padding: 10px;
-  animation: aboutMe 6s 1;
-  animation-fill-mode: forwards;
+  color: #F6F6DB;
+  /* animation: aboutMe 6s 1;
+  animation-fill-mode: forwards; */
 }
 
 /* Projects */
