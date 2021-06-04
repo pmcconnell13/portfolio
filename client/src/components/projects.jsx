@@ -9,7 +9,7 @@ function Projects() {
         <div class="projects">
           <div class="project1">
             <div class="projectImage">
-              {/* <img src={ratingsReviews}></img> */}
+              <img src={ratingsReviews}></img>
             </div>
             <div>
             <a href="https://github.com/Observant-Ostriches/fec-projectCatwalk">
