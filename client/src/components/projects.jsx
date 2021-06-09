@@ -10,6 +10,7 @@ function Projects() {
           <div class="project1">
             <div class="projectImage">
               <img src={ratingsReviews}></img>
+<div>hello</div>
             </div>
             <div>
             <a href="https://github.com/Observant-Ostriches/fec-projectCatwalk">
